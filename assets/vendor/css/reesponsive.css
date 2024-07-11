@@ -1,0 +1,815 @@
+@media all and (min-width: 1221px) {
+}
+
+@media all and (max-width: 1220px) {
+}
+
+@media (min-width: 768px) {
+    .banner img {
+        height: 280px;
+        margin-top: 92px;
+    }
+
+    .left_col {
+        float: left;
+        width: 180px;
+        margin-bottom: 15px;
+    }
+    /*.right_col.tab-content.noLeftCol {
+        padding: 20px 81px !important;
+    }*/
+    .right_col.tab-content {
+        padding: 0 !important;
+    }
+
+    .right_col {
+        width: 100%;
+        /*width: calc(100% - 205px);*/
+        float: right;
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+
+    .tabs-right .nav-tabs,
+    .tabs-left .nav-tabs {
+        border-bottom: 0;
+    }
+        
+    .tab-content > .tab-pane {
+        border: 2px solid #cf4e33;
+    }
+
+    .tab-content > .tab-pane,
+    .pill-content > .pill-pane {
+        display: none;
+    }
+
+    .tab-content > .active,
+    .pill-content > .active {
+        display: block;
+    }
+    /*body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}*/
+
+
+
+    .right_col_heading {
+        background: linear-gradient(-45deg, #ad1f01, #e73c7e, #0671b6, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+        /*background: #de495b;*/
+        /*background-image: linear-gradient(to right, #ad1f01, #0671b6);*/
+        font-size: 18px;
+        font-weight: bold;
+        line-height: normal;
+        padding: 10px 15px;
+        display: block;
+        color: #f5f5f5;
+        border: 1px solid #ffffff;
+        text-align: left;
+    }
+
+    .left_col_heading {
+           background: linear-gradient(-45deg, #ad1f01, #e73c7e, #0671b6, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+        width: 180px;
+        border: 1px solid #ffffff;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 600;
+        padding: 6px 0px;
+        margin-left: 15px;
+        color: #ffffff;
+    }
+
+        @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+    .tabs-left .nav-tabs > li,
+    .tabs-right .nav-tabs > li {
+        float: none;
+    }
+
+        .tabs-left .nav-tabs > li:hover,
+        .tabs-left .nav-tabs li.active {
+            background-color: #de4759;
+        }
+
+        .tabs-left .nav-tabs > li > a:hover,
+        .tabs-right .nav-tabs > li > a:hover {
+            color: #ffffff;
+        }
+
+        .tabs-left .nav-tabs > li > a,
+        .tabs-right .nav-tabs > li > a {
+            min-width: 74px;
+            margin-right: 0;
+        }
+
+    .tabs-left .nav-tabs {
+        background-color: rgba(255, 255, 255, 0.79);
+        margin-left: -15px;
+        padding-bottom: 1px;
+        border: 1px solid #de495b;
+    }
+
+        .tabs-left .nav-tabs > li:last-child > a {
+            border-bottom: 0;
+        }
+
+        .tabs-left .nav-tabs > li > a:hover {
+            border: 0;
+            border-left: 2px solid #ffcc00;
+            border-bottom: 1px solid transparent;
+            background: transparent;
+            color: #e0e0e0;
+        }
+
+        .tabs-left .nav-tabs > li > a:focus {
+            border-left: 2px solid #ffcc00;
+            background: transparent;
+            color: #212121;
+            border-bottom: 1px solid #9e9e9e;
+        }
+
+        .tabs-left .nav-tabs .active > a .fa-caret-right {
+            margin-left: -16px;
+            color: #ffcc00;
+            margin-right: 11px;
+        }
+
+    .block-headerH4 {
+        background: #08628d;
+        color: #fff;
+        margin: 5px;
+    }
+
+        .block-headerH4 h4 {
+            margin: 5px;
+        }
+
+    .ravalutionlist label {
+        height: 20px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .login_form {
+        left: 50%;
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .padding-tb:before {
+        display: table;
+        content: " ";
+    }
+
+    .padding-tb:after {
+        clear: both;
+    }
+
+    .banner img {
+        margin-top: 60px;
+        height: auto;
+    }
+
+    .right_col {
+        width: 100% !important;
+        float: none;
+    }
+
+    .noLeftCol {
+        margin-top: 48px;
+        /*margin-top: 113px;*/
+    }
+
+        .noLeftCol h2 {
+            width: 100%;
+            right: 0px;
+        }
+
+    .left_col {
+        float: none;
+        width: 89%;
+        border-top: 3px solid #ffcc00;
+        background-color: #0d628c;
+        margin-bottom: 0;
+        /*margin-top: 60px;*/
+        margin: 0 20px 15px 20px;
+    }
+
+        .left_col .row {
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+    .container.tabbable.tabs-left {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .left_col_heading {
+        background-color: transparent;
+        color: #f5f5f5;
+        font-weight: normal;
+        font-size: 15px;
+        text-align: left;
+        margin-left: 10px;
+        float: left;
+        padding: 10px 0px;
+        width: 40%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .left_col .navbar-toggle {
+        margin-top: 14px !important;
+        margin-right: 10px;
+        padding-left: 0;
+    }
+
+        .left_col .navbar-toggle .icon-bar {
+            background-color: #fff;
+        }
+
+    .right_col_heading {
+        margin-top: -48px;
+        right: 45px;
+        border-top: 0;
+        font-size: 15px;
+        background-color: #ffcc00;
+        color: #000;
+        padding: 10px 10px;
+        position: absolute;
+        width: 44%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #sub-tabs-list {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 89%;
+        margin-left: 0;
+        background-color: rgba(255, 255, 255, 0.97);
+    }
+
+    .tabs-left .nav-tabs .active > a span {
+        font-size: 15px;
+    }
+
+    .tabs-left .nav-tabs > li > a {
+        font-size: 15px;
+        width: auto !important;
+        background: #ffffff;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .table-responsive {
+        border: 0px solid;
+    }
+
+    .common-ul {
+        margin-bottom: 2px;
+    }
+
+        .common-ul li {
+            list-style-type: none;
+            border-bottom: none;
+        }
+
+    .border-between > [class*="col-"] {
+        border-right: none;
+    }
+
+    .padding-tb {
+        border-bottom: 1px solid #b5b1b1;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .common-ul li:last-child .padding-tb:last-child {
+        border-bottom: none;
+    }
+
+    .block-headerH4 {
+        background: #5a5954;
+        border-top: 3px solid #ffcc00;
+        color: #fff;
+        padding: 2px 15px;
+    }
+
+    .border-between > [class*="col-"]:last-child {
+        border-left: none;
+        margin-left: -1px;
+    }
+
+    .common-ul .padding-tb {
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+    .common-ul li:last-child .padding-tb:last-child {
+        border-bottom: none;
+    }
+
+    .block-headerH4 {
+        background: #5a5954;
+        border-top: 3px solid #ffcc00;
+        color: #fff;
+        padding: 2px 10px;
+    }
+
+    .block-headerBottom {
+        padding: 1px 15px;
+        padding-bottom: 1px !important;
+    }
+
+    .swMain > ul li .stepDesc {
+        font-size: 13px;
+    }
+
+    .swMain .progress {
+        margin: 15px;
+        margin-bottom: 15px;
+    }
+
+    .small-text {
+        font-size: 15px;
+        color: #ffcc00;
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+
+    .fixed {
+        position: relative;
+        background: none;
+        z-index: 0;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 0px 0px #adabab;
+    }
+
+    .faculty-view {
+        min-height: 64px;
+    }
+
+        .faculty-view label {
+            height: 14px;
+        }
+
+    .payment table {
+        width: 98%;
+        margin: auto;
+    }
+
+    .mit-padding {
+        padding: 0px 4px;
+    }
+
+    .label-responsive label, .announcement label, .classattedance label, .classattedanceview label, .classattedancesummary label {
+        height: 20px;
+    }
+
+    .form-control {
+        font-weight: 600;
+    }
+
+    .tooltip.in {
+        display: none !important;
+    }
+
+    .col-sm-6.event-time.text-right {
+        text-align: left;
+    }
+}
+
+@media all and (device-width: 768px) {
+
+    .check-space {
+        margin-top: -30px;
+    }
+
+    .p-sm-0 {
+        clear: both;
+    }
+}
+
+@media all and (max-width: 480px) {
+
+    /*=========================StudentTimeTable====================*/
+    .fc-button-group {
+        width: 100px;
+        margin-bottom: 9px;
+    }
+
+    /*=========================Student Dashboard====================*/
+    .innerpadding {
+        padding: 0px 22px 0px 17px !important;
+    }
+
+    /*===================classattedance--classattedanceview--classattedancesummary===========================*/
+    .label-responsive label, .announcement label, .classattedance label, .classattedanceview label, .classattedancesummary label {
+        height: 20px;
+    }
+
+    .border-box {
+        border: none;
+    }
+
+    .noLeftCol {
+        margin-top: 48px;
+        /*margin-top: 113px;*/
+    }
+
+        .noLeftCol h2 {
+            width: 100%;
+            right: 0px;
+        }
+}
+
+@media all and (max-width: 375px) {
+}
+
+@media screen and (max-height:1400px) and (min-height: 1025px) {
+    .bodymain {
+        min-height: 87vh;
+    }
+}
+
+@media screen and (max-height:1024px) and (min-height: 901px) {
+    .bodymain {
+        min-height: 83.7vh;
+    }
+}
+
+@media screen and (max-height:900px) and (min-height: 701px) {
+    .bodymain {
+        min-height: 80vh;
+    }
+}
+
+@media screen and (max-width:1024px) and (max-height: 768px) {
+    .bodymain {
+        min-height: 76.3vh;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width: 1010px) {
+    .breadcrumb {
+        margin-top: 92px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .bodymain {
+        min-height: 93.5vh;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .ravalutionlist .radio-inline {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hidden-xs-down {
+        display: none !important;
+    }
+
+    .search-container {
+        top: 35px;
+        right: 150px;
+    }
+
+    .sidenav {
+        top: 94px;
+    }
+
+    .AUA #aLogoImage {
+        width: 125px !important;
+    }
+
+    .AICASA #aLogoImage {
+        width: 195px !important;
+    }
+
+    /*.mainNavigation li {
+        width: 10rem;
+    }*/
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .open_btn, .open_btn_mob {
+        top: 100px;
+    }
+
+    .search-box {
+        width: 468px;
+        right: -140px;
+    }
+
+    .ui-autocomplete {
+        width: 468px !important;
+        left: 208px !important;
+        top: 143px !important;
+    }
+
+    .search-button {
+        left: 131px;
+        width: 30px;
+        height: 30px;
+        padding: 5px 8px;
+        top: -6px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+    .mainNavigation li {
+        width: 10rem;
+    }
+
+    .search-container {
+        right: 0;
+    }
+
+    .search-box {
+        width: 689px;
+    }
+
+    .open_btn, .open_btn_mob {
+        top: 100px;
+    }
+
+    .ui-autocomplete {
+        width: 689px !important;
+        z-index: 999 !important;
+        top: 141px !important;
+        top: 141px !important;
+        left: 203px !important;
+    }
+
+    .logo_aicasa, .logo_aua {
+        width: 66px;
+    }
+
+    .login_header h4 {
+        font-size: 28px;
+    }
+
+    .verticalFlip {
+        display: none;
+    }
+
+    .header_bottom .col-md-8 {
+        width: auto;
+        float: none;
+    }
+}
+
+@media (max-width: 450px) {
+
+    #video-bg {
+        display: none;
+    }
+
+    .login_page {
+        background-image: url('../images/auabg.png');
+    }
+
+    .cslm-heading {
+        font-size: 14px;
+    }
+
+    .login_page .col-md-9.text-right.pt-5 {
+        text-align: left !important;
+    }
+
+    .ui-corner-all {
+        width: 370px !important;
+        overflow-x: hidden;
+    }
+
+    .mainNavigation li .dropdown-menu {
+        left: 0;
+    }
+    /*ul.mainNavigation li.dropdown.open ul.dropdown-menu {
+        position: static;
+    }*/
+
+    ul.mainNavigation li.dropdown.open ul.dropdown-menu li a {
+        color: #ffffff !important;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .right_col {
+        padding: 0px !important;
+        width: 100% !important;
+    }
+
+    .search-container {
+        top: 21px;
+        right: 22px;
+    }
+
+    .open_btn {
+        top: 80px;
+    }
+
+    .search-box {
+        width: 350px;
+        border: none;
+        right: -33px;
+    }
+
+        .search-box.active {
+            height: 40px;
+            top: -13px;
+        }
+
+    .navbar-brand img {
+        width: 120px !important;
+    }
+
+    .right_col_heading {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    .sidenav {
+        top: 67px;
+        position: absolute;
+        width: 220px;
+    }
+
+        .sidenav.open-menu {
+            width: 0px;
+        }
+
+    .profile-pic {
+        display: block;
+        float: none !important;
+        text-align: center;
+    }
+
+    .student-pic {
+        margin-right: 0 !important;
+    }
+
+    .open_btn, .closebtn {
+        display: none !important;
+    }
+
+    .open_btn_mob {
+        display: block !important;
+    }
+
+    .closebtnmob {
+        position: absolute;
+        z-index: 99999;
+        top: 75px;
+        width: 25px;
+        height: 25px;
+    }
+    .bg-after-heading {
+        display: none !important;
+    }
+}
+
+.hostellbl {
+    background: #0e628b;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+@media (max-width: 450px) {
+
+    body {
+        background: #220067;
+    }
+
+    .right_col_bg {
+        padding: 20px;
+        margin-right: 10px;
+    }
+
+    .search-section {
+        position: absolute;
+        right: 0;
+    }
+
+    .search-button {
+        right: -30px;
+    }
+
+    .login_page .col-md-9.text-right.pt-5 {
+        text-align: left !important;
+    }
+
+    .ui-autocomplete.ui-corner-all {
+        left: 6px !important;
+        top: 114px !important;
+        width: 350px !important;
+        overflow-x: hidden;
+    }
+
+    .mainNavigation li .dropdown-menu {
+        left: 0;
+    }
+
+    ul.mainNavigation li.dropdown.open ul.dropdown-menu li a {
+        color: #ffffff !important;
+        padding: 10px;
+    }
+
+    #main {
+        margin-left: 0 !important;
+    }
+
+    .right_col_heading {
+        margin-top: 0;
+        right: 45px;
+        font-size: 14px;
+        background-color: #bf3839;
+        color: #fff;
+        padding: 5px 10px;
+        left: 20px;
+        top: 0;
+        line-height: normal;
+    }
+
+    .breadcrumb {
+        visibility: hidden;
+    }
+
+    .sidenav {
+        top: -33px;
+    }
+
+    #sub-tabs-list {
+        display: block;
+        background-color: transparent;
+    }
+
+    .tab-content > .active, .pill-content > .active {
+        position: relative;
+    }
+
+    .noLeftCol h2 {
+        width: 30%;
+        right: 0px;
+        top: -5px;
+    }
+
+    .mainNavigation li {
+        display: inline-block;
+    }
+
+
+    .mainNavigation a.span, .mainNavigation span {
+        border-radius: 0;
+    }
+
+        .mainNavigation li .dropdown-menu {
+            column-count: unset !important;
+        }
+
+    .page_hide .sidenav.open-menu, .page_hide .open_btn_mob, .all-page_hide .sidenav.open-menu, .all-page_hide .open_btn, .all-page_hide .search-container, .all-page_hide .breadcrumb {
+        display: none !important;
+    }
+}

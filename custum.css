@@ -1,0 +1,14 @@
+
+.c1{
+    display: none;
+}
+
+.result{
+    display: none;
+}
+
+#c3{
+    display: block;
+    text-align: left;
+    margin-top: -650px;
+}
